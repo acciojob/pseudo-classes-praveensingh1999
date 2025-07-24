@@ -1,1 +1,36 @@
 /*  your css code here. If applicable */
+:root{
+	background-color: rgb(135,206,235);
+}
+article p:first-child{
+	background-color: black;
+}
+article p:nth-child(2){
+	color: inherit; 
+}
+article p:last-child{
+	color: red;
+}
+ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+ul li {
+    background-color: gray; /* Gray background for all items */
+    width: 50%; /* Width of 50% */
+    padding: 10px; /* Padding of 10px */
+}
+
+ul li:nth-child(odd) {
+    background-color: white; /* White background for odd items */
+}
+
+ul li:first-child,
+ul li:last-child {
+    font-size: 22px; /* Font size of 22px for first and last items */
+}
+
+ul li:nth-last-child(3) {
+    background-color: pink; /* Pink background for the third-to-last item */
+}
